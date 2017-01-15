@@ -8,7 +8,8 @@ bootstrap = Bootstrap(app)
 
 @app.route("/")
 def index():
-	return render_template('base.html')
+	return render_template('homepage.html')
+
 
 
 if __name__ == "__main__":
